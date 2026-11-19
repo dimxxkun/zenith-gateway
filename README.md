@@ -1,6 +1,6 @@
 # Zenith-Gateway
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Noncommercial](https://img.shields.io/badge/License-Noncommercial-blue.svg)](LICENSE)
 
 **Zenith-Gateway** is an asynchronous API reverse proxy, traffic shaping, and resilience engine written in Go. It incorporates dynamic Token Bucket rate limiting, Circuit Breaker state automata, and Weighted Round-Robin load balancing to safeguard microservices against cascading failures and traffic spikes.
 
@@ -44,4 +44,10 @@ go run cmd/gateway/main.go
 ```
 
 ## License
-MIT © [dimxxkun](https://github.com/dimxxkun)
+[Noncommercial license](LICENSE) © [dimxxkun](https://github.com/dimxxkun)
+
+## Commercial permission
+
+Original material in this repository is available under the [Noncommercial Use and Commercial Permission License](LICENSE). **Noncommercial use is free. Commercial use requires prior written permission and a separate written agreement specifying the scope and agreed fee.** Contact [work.abdulfatai@gmail.com](mailto:work.abdulfatai@gmail.com) with the repository name and intended use.
+
+Portfolio review and recruitment evaluation are permitted without a fee. Third-party components retain their own licenses. Permissions already granted for earlier versions remain valid; the new terms do not revoke those grants. These are custom source-available terms, not an OSI-approved open-source license.
